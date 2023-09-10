@@ -2,6 +2,10 @@
 
 This is my custom neovim for Go and JavaScript projects
 
+Install c Compiler
+```bash
+sudo apt-get install build-essential
+```
 
 Install neovim
 ```bash
@@ -43,4 +47,13 @@ vim .bashrc
 
 # Paste at the end
 export PATH=/opt/node-v18/bin:$PATH
+```
+
+Install golang
+```bash
+wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz
+
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
+
+export PATH=$PATH:/usr/local/go/bin
 ```
