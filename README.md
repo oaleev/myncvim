@@ -2,12 +2,12 @@
 
 This is my custom neovim for Go and JavaScript projects
 
-Install c Compiler
+#### Install c Compiler
 ```bash
 sudo apt-get install build-essential
 ```
 
-Install neovim
+#### Install neovim
 ```bash
 # Download the file
 wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
@@ -28,7 +28,7 @@ vim .bashrc
 export PATH=/opt/nvim/bin:$PATH
 ```
 
-Install node js
+#### Install node js
 ```bash
 # Download the binary
 wget https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-x64.tar.xz
@@ -49,11 +49,18 @@ vim .bashrc
 export PATH=/opt/node-v20/bin:$PATH
 ```
 
-Install golang
+#### Install golang
 ```bash
 wget https://go.dev/dl/go1.23.1.linux-amd64.tar.gz
 
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz
 
 export PATH=$PATH:/usr/local/go/bin
+```
+
+#### Install Tmux
+```bash
+sudo apt install tmux
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
