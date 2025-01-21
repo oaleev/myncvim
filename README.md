@@ -46,7 +46,7 @@ sudo mv node-v22 /opt
 vim .bashrc
 
 # Paste at the end
-export PATH=/opt/node-v20/bin:$PATH
+export PATH=/opt/node-v22/bin:$PATH
 ```
 
 #### Install golang
