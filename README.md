@@ -31,16 +31,16 @@ export PATH=/opt/nvim/bin:$PATH
 #### Install node js
 ```bash
 # Download the binary
-wget https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-x64.tar.xz
+wget https://nodejs.org/dist/v22.13.0/node-v22.13.0-linux-x64.tar.xz
 
 # Unzip the file
-sudo tar -xvf node-v20.17.0-linux-x64.tar.xz
+sudo tar -xvf node-v22.13.0-linux-x64.tar.xz
 
 # Rename the file
-mv node-v20.17.0-linux-x64 node-v20
+mv node-v22.13.0-linux-x64 node-v22
 
 # Move to opt
-sudo mv node-v20 /opt
+sudo mv node-v22 /opt
 
 # Include the path in .bashrc
 vim .bashrc
@@ -51,9 +51,9 @@ export PATH=/opt/node-v20/bin:$PATH
 
 #### Install golang
 ```bash
-wget https://go.dev/dl/go1.23.1.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.23.5.linux-amd64.tar.gz
 
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.23.5.linux-amd64.tar.gz
 
 export PATH=$PATH:/usr/local/go/bin
 ```
